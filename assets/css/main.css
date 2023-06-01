@@ -1,0 +1,264 @@
+/* Reset CSS */
+* {
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+#main {
+    font-family: "Lato", sans-serif;   
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color: black;
+    z-index: 1;
+}
+
+#header #nav {
+    display: inline-block;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a {
+    text-decoration: none;
+    display: block;
+    height: 46px;
+    padding: 12px 24px;
+}
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#nav .subnav li {
+    display: block;
+}
+#nav li:hover .subnav {
+    display: block;
+}
+#nav .subnav li a {
+    display: block;
+    min-width: 160px;
+    height: 40px;
+    color: #000;
+    padding: 12px 16px;
+}
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+    color: #fff;
+    padding: 0 20px;
+    line-height: 46px;
+    
+}
+
+#header .search-btn:hover {
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+
+}
+
+.header .search-icon{
+    
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    /* background-color: #333; */
+}
+#slider .text-content{
+    position: absolute;
+    width: 100%;
+    bottom: 80px;
+    color: #fff;
+    text-align: center;
+}
+#slider .text-heading {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px;
+}
+#slider .text-discription{
+    margin: 15px;
+}
+#ny_picture {
+    padding-top: 50%;
+    background: url(/assets/img/slider/chicago.jpg) top center /cover no-repeat; 
+}
+
+/* #content {
+    position: relative;
+}
+#content #about{
+    position: relative;
+    padding-top: 50%;
+    background-color: #fff;
+    
+}
+#about .text-content {
+    position: absolute;
+    margin-top: 64px;
+    top: 0px;
+    left: 200px;
+    right: 200px;
+}
+#about .text-content .text-heading {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#about .text-content .text-slogan {
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#about .text-content .text-discription {
+    width: 100%;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: justify;
+}
+
+#about .img-about {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    right: 300px;
+}
+
+#about .img-about .member1 {
+    position: absolute;
+    width: 160px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+}
+#about .member1 .img1 {
+    position: absolute;
+    height: 160px;
+    bottom: 0px;
+
+}
+
+#about .img-about .member2 {
+    position: absolute;
+    width: 160px;
+    height: 200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#about .member2 .img2 {
+    position: absolute;
+    height: 160px;
+    bottom: 0px;
+
+}
+
+#about .img-about .member3 {
+    position: absolute;
+    width: 160px;
+    height: 200px;
+    top: 0px;
+    right: 0;
+}
+
+#about .member3 .img3 {
+    position: absolute;
+    height: 160px;
+    bottom: 0px;
+    
+} */
+
+#content .content-section {
+    width: 800px;
+    margin: 64px auto;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.6;
+    margin: 15px 0px;
+}
+
+#content .about-text {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 24px;
+    margin: 15px 0;
+}
+
+#content .members {
+    padding: 32px 0;
+}
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .member-name {
+    margin: 15px 0;
+}
+
+#content .member-img {
+    margin-bottom: 10px;
+    width: 60%;
+}
+#footer {
+
+}
+
+
